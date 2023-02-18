@@ -1,0 +1,45 @@
+body{
+    background-image: url("/Image/Tech.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.regform{
+    width: 400px;
+    margin: 250px auto;
+    padding: 15px 20px 30px;
+    background-color: rgba(0,0,0,5);
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+}
+.regform .signup{
+    text-align: center;
+    color: orange ;
+}
+.regform .textlabel{
+    display: block;
+}
+.input input{
+    width: 95%;
+    height: 2em;
+    border-radius: 10px;
+    margin: 8px 0px 10px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-color: bisque;
+}
+input:focus{
+    background-color: beige;
+}
+.button{
+    text-align: center;
+}
+button{
+    background-color: aquamarine;
+    padding: 8px 10px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 4px;
+}
+.radio input{
+    accent-color: bisque;
+}
